@@ -1,0 +1,277 @@
+.navbar-container{
+    width: 98.5vw;
+    height: 80px;
+    /* border: 2px solid rgb(85, 82, 82); */
+    margin: auto;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* position:-webkit-sticky; */
+    gap: 167px;
+    /* https://images.unsplash.com/photo-1517167685284-96a27681ad75?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60 */
+    /* https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80 */
+    /* https://media.istockphoto.com/id/105872415/photo/silky-elegant-gold-background.jpg?s=612x612&w=0&k=20&c=UeIy1_Zv1OZ_uoluIlGCTRFV48ekW1paOSU-TvCND44= */
+    /* https://media.istockphoto.com/id/1218913612/photo/golden-abstract-wavy-liquid-background.jpg?s=612x612&w=0&k=20&c=5F2Z9rg5mAn0iBHmw2QryaMBaGEyFZeoqnbsK8O8048= */
+    /* https://media.istockphoto.com/id/515654566/photo/abstract-shot-of-lamp-shade-detail-with-a-vortex-shape.jpg?s=612x612&w=0&k=20&c=fCsdpSPpc1yAWIZTSLzepdmJEj6SJxowPUXZ1HtMpKE= */
+    /* https://images.unsplash.com/photo-1535376472810-5d229c65da09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHRleHR1cmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60 */
+    /* https://images.unsplash.com/photo-1582402512074-5895b456c856?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=327&q=80 */
+    /* https://images.unsplash.com/photo-1535083252457-6080fe29be45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80 */
+    /* https://images.unsplash.com/photo-1596787071320-c06155930dae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80 */
+    /* https://images.unsplash.com/photo-1599163666602-ef737d996c16?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80 */
+    background-image: url("https://media.istockphoto.com/id/515654566/photo/abstract-shot-of-lamp-shade-detail-with-a-vortex-shape.jpg?s=612x612&w=0&k=20&c=fCsdpSPpc1yAWIZTSLzepdmJEj6SJxowPUXZ1HtMpKE=");
+    /* background-image: linear-gradient(45deg,red,yellow,blue); */
+    /* background-image: linear-gradient(60deg,#18027a,#18027a); */
+    /* background-image: linear-gradient(60deg,blue,#2300ff, #ffff00fa,#2300ff); */
+}
+.navbar-container-div1{
+    width:80px;
+    height: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+margin-left: 20px;
+}
+.navbar-container-div2{
+    width:63%;
+    height: 90%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 20px;
+    /* background-image:linear-gradient(to bottom right, rgba(255,255,255,0.2), rgba(255,255,255,0)); */
+    /* backdrop-filter: blur(10px); */
+    /* background-image:linear-gradient(to bottom right, rgba(255,255,255,0.2), rgba(255,255,255,0)); */
+    /* background-color:rgba(0,0,0,0.5); */
+    /* background: rgb(255,255,255,.2); */
+    /* gap: 100px; */
+    background: rgba( 255, 255, 255, 0.3 ) !important;
+    backdrop-filter: blur( 7.5px ) !important;
+  -webkit-backdrop-filter: blur( 7.5px ) !important;
+  box-shadow: 0 8px 32px 0 rgba( 0, 0, 0, 0.18 ) !important;
+  /* border: 1px solid rgba( 255, 255, 255, 0.18 ) !important; */
+  z-index: 4;
+
+
+}
+.navbar-container-div3{
+    width: 60px;
+    height: 70%;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-container-div1-img-logo{
+    width: 100%;
+   height: 100%; 
+   border-radius: 50%;
+}
+
+.navbar-container-div3-img{
+    width: 80%;
+height: 80%;
+border: 1px solid white;
+border-radius: 50%;
+}
+.navbar-container-div2-menu{
+    display: none;
+}
+
+/* {div2 ............content......................................} */
+
+.navbar-container-div2-home{
+    width: auto;
+    height: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.navbar-container-div2-about{
+
+    width: auto;
+    height: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-container-div2-service{
+
+    width: 80px;
+    height: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:2px;
+}
+.navbar-container-div2-contact{
+
+    width: 96px;
+    height: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-container-div2-contact-box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+
+.navbar-container-div2-log{
+    width: 70px;
+    height: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-container-div2-team{
+    width: 65px;
+    height: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-container-div2-sign{
+    width: 65px;
+    height: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-symbol-icon{
+    color: aqua;
+}
+
+.navbar-service-icon{
+width: 20px;
+height: 20px;
+color: blue;
+/* color: #ffc107; */
+}
+
+
+.navbar-container-div2-ptag-home{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: black;
+    /* background-image: linear-gradient(60deg, #ffc107, #ffc107); */
+    /* background-clip: text;
+    color: transparent; */
+}
+
+.navbar-container-div2-ptag-about{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: black;
+    /* background-image: linear-gradient(60deg, #ffc107, #ffc107);
+    background-clip: text;
+    color: transparent; */
+}
+.navbar-container-div2-ptag-service{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: black;
+    /* background-image: linear-gradient(60deg, #ffc107, #ffc107);
+    background-clip: text;
+    color: transparent; */
+}
+
+.navbar-container-div2-ptag-contact{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: black;
+    /* background-image: linear-gradient(60deg, #ffc107, #ffc107);
+    background-clip: text;
+    color: transparent; */
+}
+.navbar-container-div2-ptag-log{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: black;
+    /* background-image: linear-gradient(60deg, #ffc107, #ffc107);
+    background-clip: text;
+    color: transparent; */
+}
+.navbar-container-div2-ptag-team{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: black;
+    /* background-image: linear-gradient(60deg, #ffc107, #ffc107);
+    background-clip: text;
+    color: transparent; */
+}
+
+
+.navbar-container-div2-ptag-sign {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: black;
+}
+.navbar-container-div2-sign-dot{
+    width: 6px;
+    height: 6px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    background-color: blue;
+    margin-left: -5px;
+    /* position: static; */
+    
+}
+/* {  bottom line .......................................} */
+
+.navbar-container-div2-service-line{
+    width: 66px;
+    height: 4px;
+    background-color: blue;
+    margin-top: 35px;
+    margin-left: -5px;
+}
+.navbar-container-div2-contct-line{
+
+    width: 90px;
+    height: 4px;
+    background-color: blue;
+    margin-top: 35px;
+    margin-left: -6px;
+}
+.navbar-container-div2-blog-line{
+
+    width: 45px;
+    height: 4px;
+    background-color: blue;
+    margin-top: 35px;
+    margin-left: -4px;
+}
+.navbar-container-div2-team-line{
+
+    width: 60px;
+    height: 4px;
+    background-color: blue;
+    margin-top: 35px;
+    margin-left: -4px;
+}

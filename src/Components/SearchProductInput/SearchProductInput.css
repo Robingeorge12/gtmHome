@@ -1,0 +1,97 @@
+.searchip-container{
+    width: 98vw;
+    height: 13vh;
+    /* border: 2px solid black; */
+    display: flex;
+
+}
+.searchip-container-div1{
+    width: 30%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.searchip-container-div2{
+    width: 70%;
+    height: 100%;
+    /* background-color: rgb(167, 234, 80); */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* {...div1.......................................} */
+
+
+
+
+/* {....div2............................................} */
+
+.searchip-container-div2-filtbox{
+    width: 120px;
+    height: 40px;
+    border: 1px solid #090979;
+    border-radius: 4px;
+    /* background-image:linear-gradient(to right,red,#ffc107,#090979); */
+
+}
+#searchip-container-div2-filtbox-sel{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 4px;
+    /* background-image:linear-gradient(to right,red,#ffc107,#090979); */
+}
+
+.searchip-container-div2-container{
+
+    width: 700px;
+    height: 40px;
+    border: 1px solid #090979;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    /* justify-content: center; */
+
+
+}
+.searchip-container-div2-ip{
+
+width: 74%;
+height: 96%;
+outline: none;
+border: none;
+}
+.searchip-container-div2-container-icon{
+    width: 40px;
+    height: 40px;
+}
+.searchip-container-div2-container-search{
+
+    width: 140px;
+    height: 100%;
+    color: aliceblue;
+    background-color: #090979;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: monospace;
+    
+    /* -webkit-column-rule-width: ; */
+}
+.searchip-container-div1-type{
+
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 700;
+    color: white;
+    /* background-image: linear-gradient(60deg,#18027a,#067a8c);  */
+
+}
+.searchip-container-div1-type1{
+
+    background-image: linear-gradient(60deg,#18027a,#067a8c); 
+}
+.searchip-container-div1-type2{
+
+    background-image: linear-gradient(60deg,#18027a,#067a8c); 
+}
